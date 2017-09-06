@@ -23,7 +23,7 @@ const numbers = {
   30 : "thirty",
   40 : "fourty",
   50 : "fifty"
-}
+};
 
 function talkingClock (time){
   let [hour, minute] = time.split(':').map(str => parseInt(str));
