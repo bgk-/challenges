@@ -1,3 +1,11 @@
+/** Blake Grayson Kehler
+ *  2017/10/06
+ * 
+ *  Challenge:
+ *  Given a number output a square spiraling inwards
+ *  with sides and height the size of the number given.
+ */
+
 function spiralNumbers (n){
   var len = (n*n).toString().length;
   var x = 0, y = 0, side = 1;
@@ -36,6 +44,7 @@ function spiralNumbers (n){
     let str = i.toString().length != len ? ' '.repeat(len - i.toString().length) + i : i + "";
     board[y][x] = str;
   }
+
   var printboard = "";
   var row = 0, col = 0;
   for (let i = 0; i < n*n; i++){

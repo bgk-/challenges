@@ -1,3 +1,11 @@
+/** Blake Grayson Kehler
+ *  2017/10/04
+ * 
+ *  Challenge:
+ *  Given a number, find the nearest Lucky Numbers (https://en.wikipedia.org/wiki/Lucky_number) 
+ *  or output the number is itself a lucky number.
+ */
+
 function lucky(n){
   //create array of only odd numbers
   var arr = new Array(Math.floor(n/2+Math.sqrt(n))).fill().map((e,i)=>(i+1)*2-1);

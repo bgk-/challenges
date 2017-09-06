@@ -1,3 +1,11 @@
+/** Blake Grayson Kehler
+ *  2017/10/05
+ * 
+ *  Challenge:
+ *  Given multiple circles with coordinates and radius (x, y, r)
+ *  determine the smallest possible bounding box.
+ */
+
 var top = [], bottom = [], left = [], right = [];
 function circles(x, y, rad){
   top.push(y+rad);
