@@ -58,5 +58,7 @@ function spiralNumbers (n){
   }
   return printboard;
 }
+console.log(spiralNumbers(2));
 console.log(spiralNumbers(4));
 console.log(spiralNumbers(10));
+console.log(spiralNumbers(15));
