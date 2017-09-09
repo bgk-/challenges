@@ -1,5 +1,5 @@
 /** Blake Grayson Kehler
- *  2017/10/04
+ *  2017/09/04
  * 
  *  Challenge:
  *  Given a number, find the nearest Lucky Numbers (https://en.wikipedia.org/wiki/Lucky_number) 

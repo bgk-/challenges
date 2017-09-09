@@ -46,11 +46,11 @@ const words = {
 };
 
 function checkWriter (input){
+  console.log(input);
   var output = "";
   let num = input.toString();
   let index = Math.abs(num.indexOf('.'));
   let amount = [padNum(num.substring(0,index)), num.substr(index + 1)];
-  console.log(amount);
   for (let i = 0; i < amount[0].length; i++){
     output += hundreds(amount[0][i]);
     let pos = Math.abs(i-amount[0].length +1);
@@ -72,7 +72,7 @@ function padNum(dol){
 function hundreds(num){
   var output = "";
   output += num.charAt(0) != 0 ? words[num.charAt(0)] + " " +  words["h"] + " " : "";
-  output += num.charAt(1) != 0 && num.charAt(2) != 0 ? num.charAt(1) != 1 ? words[num.charAt(1) + 0] + " " + words[num.charAt(2)]  + " "
+  output += num.charAt(1) != 0 && num.charAt(2) != 0 ? num.charAt(1) != 1 ? words[num.charAt(1) + 0] + "-" + words[num.charAt(2)]  + " "
                                 : words[num.charAt(1) + num.charAt(2)] + " "  : "";
   output += num.charAt(1) == 0 && num.charAt(2) != 0 ? words[num.charAt(2)] + " " : "";
   return output;

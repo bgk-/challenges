@@ -1,5 +1,5 @@
 /** Blake Grayson Kehler
- *  2017/10/04
+ *  2017/09/04
  * 
  *  Challenge:
  *  Given a sorted array of integers and a number, find if any pair 

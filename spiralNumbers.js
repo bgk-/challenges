@@ -1,5 +1,5 @@
 /** Blake Grayson Kehler
- *  2017/10/06
+ *  2017/09/06
  * 
  *  Challenge:
  *  Given a number output a square spiraling inwards
@@ -58,7 +58,8 @@ function spiralNumbers (n){
   }
   return printboard;
 }
+
+console.log(spiralNumbers(1));
 console.log(spiralNumbers(2));
 console.log(spiralNumbers(4));
 console.log(spiralNumbers(10));
-console.log(spiralNumbers(15));

@@ -1,5 +1,5 @@
 /** Blake Grayson Kehler
- *  2017/10/05
+ *  2017/09/05
  * 
  *  Challenge:
  *  Given a time in 24 hour format (16:25) output the written
